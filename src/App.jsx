@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Sparkles, FileText, Youtube, Upload, Loader2, Copy, Check } from 'lucide-react';
 
-const COHERE_API_KEY = 'atTCSFryze3ElnjGtPnxZTPSThgY0tAN3BxzttDV';
+const COHERE_API_KEY = import.meta.env.VITE_COHERE_API_KEY;
 
 
 const style = document.createElement('style');
