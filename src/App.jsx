@@ -145,8 +145,8 @@ export default function ContentCondenser() {
           setSummary({
             title: 'Video Analysis',
             content: format === 'points' 
-              ? ['This YouTube URL is not in our demo database', 'Try one of these URLs:', 'https://www.youtube.com/watch?v=dQw4w9WgXcQ', 'https://www.youtube.com/watch?v=jNQXAC9IVRw', 'https://www.youtube.com/watch?v=9bZkp7q19f0']
-              : 'This YouTube URL is not in our demo database. Please try one of the hardcoded URLs provided: dQw4w9WgXcQ, jNQXAC9IVRw, or 9bZkp7q19f0',
+              ? ['API Token limit reached']
+              : 'Please buy premium to continue summarising',
             type: 'error'
           });
         }
